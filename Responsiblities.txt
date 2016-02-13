@@ -8,7 +8,7 @@ assignment, number of late assignments, save, exit)
 
 (Weight: 10%) Keep track of the assignments using doubly-linked lists. 
 
-(Weight: 10%) On demand, count the number of late assignments. 
+(Weight: 10%) Initially you should read assignments from a file, and populate your assigned list.
 
 (Weight: 10%) Add a new assignment (to the assigned list or the completed list).
 Don’t add the assignment in these cases:
@@ -30,7 +30,7 @@ The given assigned or due dates are invalid.
 
 (Weight: 10%) Keep the assigned assignments ordered by due date (in ascending order). 
 
-(Weight: 10%) Initially you should read assignments from a file, and populate your assigned list. 
+(Weight: 10%) On demand, count the number of late assignments. 
 
 (Weight: 5%) Write a function that overwrites the assignment file to reflect the changes (e.g.
 newly added, edited assigned and completed assignments). The function can be called on

@@ -116,6 +116,8 @@
   <ItemGroup>
     <ClInclude Include="Assignment.h" />
     <ClInclude Include="Assignment_Lists.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="StringTokenizer.h" />
     <ClInclude Include="User_Interface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

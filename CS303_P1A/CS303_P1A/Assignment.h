@@ -1,6 +1,7 @@
 #ifndef ASSIGNMENT_H
 #define ASSIGNMENT_H
 #include <string>
+#include "Date.h"
 
 using namespace std;
 
@@ -10,20 +11,41 @@ class Assignment {
 
 public:
 
-	/*We need to construct a new Assignment and a default Assignment*/
+	Assignment(const Date& the_dueDate,
+		const string& the_description,
+		const Date& the_assignedDate,
+		const status& the_currentStatus) :
+		dueDate(the_dueDate),
+		description(the_description),
+		assignedDate(the_assignedDate),
+		currentStatus(the_currentStatus) {}
 
-	string get_dueDate() const { return dueDate; }   //Must be changed to Date data type
+	Assignment() : dueDate(2016, 1, 1), description(""), assignedDate(2016, 1, 1), currentStatus(assigned) {}
+
+	Date get_dueDate() const { return dueDate; }
 	string get_description() const { return description; }
-	string get_assignedDate() const { return assignedDate; }   //Must be changed to Date data type
+	Date get_assignedDate() const { return assignedDate; }
 	status get_currentStatus() const { return currentStatus; }
+
+	void set_dueDate(const Date& new_dueDate) {
+		dueDate = new_dueDate;
+	}
+	void set_description(const string& new_description) {
+		description = new_description;
+	}
+	void set_assignedDate(const Date& new_assignedDate) { 
+		assignedDate = new_assignedDate;
+	}
+	void set_currentStatus(const status& new_currentStatus) {
+		currentStatus = new_currentStatus;
+	}
 
 private:
 
-	string dueDate;   //Must be changed to Date data type
+	Date dueDate;
 	string description;
-	string assignedDate;   //Must be changed to Date data type
+	Date assignedDate;
 	status currentStatus;
-
 
 };
 

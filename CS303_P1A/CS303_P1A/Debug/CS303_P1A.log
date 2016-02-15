@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\candice\documents\github\cs303_p1a\cs303_p1a\cs303_p1a\main.cpp(7): error C3867: 'Assignment::get_dueDate': non-standard syntax; use '&' to create a pointer to member
+  Assigned_Lists.cpp
+  Generating Code...

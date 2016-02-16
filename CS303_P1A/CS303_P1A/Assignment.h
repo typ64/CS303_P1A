@@ -1,3 +1,6 @@
+/*
+Defines class for an Assignment object
+*/
 #ifndef ASSIGNMENT_H
 #define ASSIGNMENT_H
 #include <string>

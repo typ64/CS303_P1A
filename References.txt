@@ -4,3 +4,7 @@ http://www.cplusplus.com/reference/list/list/
 C++ Programming: From Problem Analysis to Program Design, D.S. Malik
 
 Objects, Abstraction, Data Structures and Design Using C++, Elliot B. Koffman, Paul A.T. Wolfgang
+
+Source Code:
+- Date Type
+- Vectors (Vector Based Phone Directory)

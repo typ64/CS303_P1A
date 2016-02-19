@@ -14,9 +14,9 @@ class Assignment {
 
 public:
 
-	Assignment(string the_dueDate,
+	Assignment(Date the_dueDate,
 		const string& the_description,
-		const string the_assignedDate,
+		const Date the_assignedDate,
 		const status& the_currentStatus) :
 		dueDate(the_dueDate),
 		description(the_description),

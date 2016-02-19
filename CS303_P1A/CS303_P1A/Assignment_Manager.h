@@ -9,18 +9,18 @@ count the late assignments
 display the assignments
 save the lists to the file
 */
-#ifndef ASSIGNMENT_LISTS
-#define ASSIGNMENT_LISTS
+#ifndef ASSIGNMENT_MANAGER
+#define ASSIGNMENT_MANAGER
 #include <list>
 #include "Assignment.h"
 
-class Assignment_Lists {
+class Assignment_Manager {
 
 public:
 
 	//Constructor and functions defined in "Assignment_Lists.cpp"
 
-	Assignment_Lists(); //constructor
+	Assignment_Manager(); //constructor
 
 	void load_data(); //loads data from a file
 	void add_entry(); //constructs a new Assignment object and calls order()

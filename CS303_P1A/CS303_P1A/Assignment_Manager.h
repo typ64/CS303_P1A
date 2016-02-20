@@ -18,7 +18,7 @@ class Assignment_Manager {
 
 public:
 
-	//Constructor and functions defined in "Assignment_Lists.cpp"
+	//Constructor and functions defined in "Assignment_Manager.cpp"
 
 	Assignment_Manager(); //constructor
 
